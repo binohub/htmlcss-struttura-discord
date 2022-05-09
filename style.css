@@ -1,0 +1,77 @@
+
+/*! ### utility ###*/
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*! #### HEADER #### */
+body
+{
+    font-family: 'Comfortaa', sans-serif;
+}
+header
+{
+    width: 100%;
+    background-color: #add8e6 ;
+    padding: 10px 0px;
+}
+.squares
+{
+    height: 30px;
+    background-color: orange;
+    display: flex;
+}
+.square-logo
+{
+    width: 20%;
+    border: 1px solid black;
+}
+.square-link
+{
+    width: 60%;
+    border: 1px solid black;
+}
+.square-login
+{
+    width: 20%;
+    border: 1px solid black;
+}
+/*! ### MAIN ### */
+.section-blue
+{
+    background-color: darkblue;
+    height: 200px;
+}
+.section-white
+{
+    background-color: white;
+    height: 200px;
+}
+.section-lightgrey
+{
+    background-color: lightgrey;
+    height: 200px;
+}
+.section-dark
+{
+    background-color: black;
+    height: 200px;
+}
+/*! ### FOOTER ### */
+
+/*! ### USE ### */
+/*? #### containers #### */
+.bg-container
+{
+    width: 60%;
+    /* background-color: lightgray; */
+    margin: 0px auto;
+}
+/*? #### backgrounds #### */
+.bg-gray
+{
+    background-color: rgba(211, 211, 211, 0.4);
+}
