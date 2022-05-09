@@ -50,21 +50,50 @@ header
 .square-pink
 {
     background-color: pink;
+    border: 1px solid black;
+}
+.sections
+{
+    display:flex ;
+}
+.sq1
+{
+    width: 60%;
+    background-color: bisque;
+    border: 1px solid gray;
+}
+.sq2
+{
+    width: 40%;
+    background-color: aquamarine;
+    border: 1px solid gray;
 }
 .section-white
 {
     background-color: white;
-    height: 200px;
+    height: 250px;
+    display: flex;
+    padding: 20px 0px;
 }
 .section-lightgrey
 {
     background-color: lightgrey;
-    height: 200px;
+    height: 250px;
+    display: flex;
+    padding: 20px 0px;
 }
 .section-dark
 {
     background-color: black;
-    height: 200px;
+    display: flex;
+    height: 250px;
+    padding: 20px 0px;
+}
+.section-dark-logo
+{
+    background-color: black;
+    display: flex;
+    padding: 20px 0px;
 }
 /*! ### FOOTER ### */
 
