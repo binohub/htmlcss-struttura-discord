@@ -43,7 +43,13 @@ header
 .section-blue
 {
     background-color: darkblue;
-    height: 200px;
+    display: flex;
+    height: 250px;
+    padding: 20px 150px;
+}
+.square-pink
+{
+    background-color: pink;
 }
 .section-white
 {
